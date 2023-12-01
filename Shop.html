@@ -1,0 +1,566 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+<title>Woodpecker</title>
+	
+</head>
+
+	<style>
+		
+		
+		*{margin:0;
+		text-decoration: none;
+		padding: 0;	
+		list-style:none;}
+		
+		body{background-color:#222222;}
+
+		#contenedor{width: 1320px;
+		height: 2610px;
+		background-color:#FFFFF2;
+		margin:0 auto;
+		position: relative;}
+			
+			#topper{width: 1320px;
+			height: 50px;
+			background-color:#FFFFF2;
+			margin:0 auto;
+			text-align: center;}
+		
+			#intro{width: 1320px;
+			height: 650px;
+			background-color:#313131;
+			position: relative;
+			z-index: 1;}
+
+			#menu{width: 1320px;
+			height: 60px;
+			background-color:#222222;
+			position: relative;
+			z-index: 2;}
+		
+				#logo{width: 120px;
+				height: 60px;
+				float: left;
+				background-color:#222222;
+				margin: 0 0 0 20px;}
+			
+				#stock{width: 60px;
+				height: 60px;
+				background-color:#222222;
+				float: right;
+				background-color:#222222;
+				margin: 0 50px 0 0;}
+		
+				#search{width: 60px;
+				height: 60px;
+				background-color:#222222;
+				float: Right;
+				position: relative;
+				z-index: 3;}
+
+			#contenido1{width: 1320px;
+			height: 150px;
+			background-color:#313131;
+			padding: 0 0 0 0;
+			margin:0 auto;
+			text-align: center;}
+			
+			#contenido2{width: 1320px;
+			height: 300px;
+			background-color:#313131;
+			margin:0 auto;
+			text-align: center;}
+		    	
+				#cuadro1{width: 300px;
+					height: 420px;
+					background-color:#FFF;
+					margin: 30px 0 0 70px;
+					float: left;}
+			
+				#cuadro2{width: 840px;
+					height: 500px;
+					background-color:#FFF;
+					margin: 30px 70px 0 20px; 
+					float: right;}
+
+				#cuadro3{width: 195px;
+					height: 320px;
+					background-color:#FFF;
+					margin: 25px 0px 0 30px; 
+					float: left;}
+		
+				#cuadro4{width: 195px;
+					height: 320px;
+					background-color:#FFF;
+					margin: 25px 30px 0 0; 
+					float: right;}
+		
+				#cuadro5{width: 195px;
+					height: 320px;
+					background-color:#FFF;
+					margin: 25px 0 0 0; 
+					float: right;}
+		
+		        #cuadro6{width: 195px;
+					height: 320px;
+					background-color:#FFF;
+					margin: 25px 0 0 0; 
+					float: right;}
+		
+		
+		
+			#contenido3{width: 1320px;
+			height: 450px;
+			background-color:#313131;
+			margin:0 auto;}
+		
+			#contenido4{width: 1320px;
+			height: 500px;
+			background-color:#313131;
+			margin:0 auto;}
+		
+			#contenido5{width: 1320px;
+			height: 250px;
+			background-color:#313131;
+			margin:0 auto;}
+		
+			#contenido6{width: 1320px;
+			height: 300px;
+			background-color:#222222;
+			margin:0 auto;}
+
+			#footer{width: 1320px;
+			height: 50px;
+			background-color:#FFFFF2;
+			margin:0 auto;}
+		
+				#columna1{width: 340px;
+					height: 400px;
+					background-color:#FFFFFF;
+					margin: 0 0 0 20;
+					align-content: center;
+					margin: 50px 0 0 150px;
+					float: left;}
+
+				#columna2{width: 600px;
+					height: 175px;
+					background-color:#FFFFFF;
+					text-align: center;
+					margin: 50px 0 0 50px;
+					padding: 0 20px 0 20px;
+					float: left;}
+
+				#columna3{width: 295px;
+					height: 175px;
+					background-color:#222222;
+					text-align: center;
+					margin: 50px 0 0 50px;
+					float: left;}
+
+				#columna4{width: 295px;
+					height: 175px;
+					background-color:#222222;
+					text-align: center;
+					margin: 50px 0 0 50px;
+					float: left;}
+
+
+				#columna5{width: 250px;
+					height: 235px;
+					background-color:#222222;
+					margin: 20px 0 0 30px;
+					padding: 0 20px 0 20px;
+					float: left;}
+				
+				#columna6{width: 250 px;
+					height: 235px;
+					background-color:#222222;
+					margin: 20px 0 0 20px;
+					padding: 0 20px 0 20px;
+					float: left;}
+		
+				#columna7{width: 250px;
+					height: 235px;
+					background-color:#222222;
+					margin: 20px 0 0 60px;
+					padding: 0 20px 0 30px;
+					float: left;}
+				
+				#columna8{width: 300px;
+					height: 235px;
+					background-color:#222222;
+					margin: 20px 0 0 20px;
+					padding: 0 20px 0 20px;
+					float: left;}
+				
+
+		
+			h1{font-family: 'Roboto', sans-serif;
+			color: #FFFFF2;
+			font-size: 24px;}
+		
+			h2{font-family: 'Roboto', sans-serif;
+			color: #F93549;
+			font-size: 20px;
+			text-align: center;
+			padding: 5px 0 10px 0;}
+			
+			h3{font-family: 'Roboto', sans-serif;
+			color: #F93549;
+			font-size: 20px;
+			padding: 10px 0 10px 10px;}
+		
+			h4{font-family: 'Roboto', sans-serif;
+			color: #222222;
+			text-align: left;
+			font-size: 18px;
+			margin: 10px 0 0 30px;}
+		
+			h5{font-family: 'Roboto', sans-serif;
+			color: #C9C9C9; 
+			text-align: center;
+			font-size: 10px;}
+			
+			
+			h6{font-family: 'Roboto', sans-serif;
+			color: #9A9A9A; 
+			font-size: 11px;}
+		
+			h7{font-family: 'Roboto', sans-serif;
+			color: #FFFFF2; 
+			font-size: 11px;
+		    margin: 0 0 0 70px}
+		
+			p{font-family: 'Roboto', sans-serif;
+			color:#555555;
+			padding: 0 10px 0 10px;
+			font-size: 14px;
+			margin: 5px 0 0 20px;}
+
+			p2{font-family: 'Roboto', sans-serif;
+			color:#707070;
+			padding: 20px 10px 0 10px;
+			margin: 0 0 0 20px; 
+			font-size: 14px;}
+
+			p3{font-family: 'Roboto', sans-serif;
+			color:#FFFFF2;
+			padding: 20px 10px 0 10px;
+			margin: 0 0 0 20px; 
+			font-size: 14px;}
+		
+			p4{font-family: 'Roboto', sans-serif;
+			color:#C9C9C9;
+			padding: 20px 10px 0 10px;
+			margin: 10px 0 0 0; 
+			font-size: 14px;}
+		
+			ul{width: 600px;
+			height: 60px;
+			margin: 0 auto;}
+
+			li{width: 100px;
+			height: 50px;
+			background-color: #550C4C;
+			display: block;
+			float: left;
+			margin: 0 0 0 20px;}
+
+
+		   a {width: 100px;
+			   height: 40px;
+			   background-color:#222222;
+			   display: block;
+			   color:#B1B1B1;
+			   text-align: center;
+			   font-family: 'Roboto', sans-serif;
+			   font-size: 15px;
+			   padding: 20px 2px 0 0;}
+
+			a:hover{background-color:#2E2E2E;
+				color: #FFFFF2;
+				height:40px;
+				font-size: 16px;}
+
+			a:active{background-color:#222222;
+				color:#FFFFF2;}
+
+			.expandable-image{width: 60px;
+    		transition: transform 0.3s;}
+				
+			.expandable-image:hover{transform: scale(1.2);}
+		
+			.expandable-image1{width: 120px;
+    		transition: transform 0.9s;}
+				
+			.expandable-image1:hover{transform: scale(1.1);}
+		
+			
+		
+			.image-container {
+			display: flex;
+			overflow: hidden;
+			width: 1320px;
+			height: 500px;
+			}
+
+			.movable-image {
+				width: 1320px;
+				height: auto;
+				animation: slideImages 60s linear infinite;}
+
+		
+		    @keyframes slideImages {
+				
+				0% {transform: translateX(0);}
+				33.33% {transform: translateX(-1320px);}
+				66.66% {transform: translateX(-2640px);}
+				100% {transform: translateX(0);}
+				
+			}
+		
+		
+			.image-container2 {
+			display: flex;
+			overflow: hidden;
+			width: 1320px;
+			height: 250px;
+			}
+
+			.movable-image2 {
+				width: 1320px;
+				height: auto;
+				animation: slideImages2 70s linear infinite;}
+
+		
+		    @keyframes slideImages2 {
+				
+				0% {transform: translateX(0);}
+				33.33% {transform: translateX(-1400px);}
+				66.66% {transform: translateX(-2800x);}
+				100% {transform: translateX(0);}
+				
+			}
+				
+    </style>
+	
+	<body>
+	<div id="contenedor">
+			<div id="topper">
+					<br>
+					<h6>NUEVA COLECCIÓN | THE FIRST COLLECTION | ENVIOS NACIONALES SIN COSTO ADICIONAL </h6>
+					</div>
+
+			<div id="menu">
+				
+					<div id="logo">	
+					<img src="Logo.png" alt="Imagen" class="expandable-image1">
+					</div>
+				
+					<div id="stock">
+					<img src="stock.png" alt="Imagen" class="expandable-image">
+					</div>
+				
+					<div id="search">
+						
+						<img src="search.png" alt="Imagen" class="expandable-image">
+											
+					</div>
+				
+					<nav>
+					<ul>
+					<li><a href="Home.html">Home</a></li>
+					<li><a href="Shop.html">Shop</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">About</a>
+					</li>
+					</ul>
+					</nav>
+			</div>
+			
+		    <div id="intro">
+				
+					<br>
+					<h7>Home > Shop</h7>
+					<br>
+					<br>
+					<hr>
+				
+					<div id="cuadro1">
+						<br> 
+						<h4>C A T E G O R Y</h4>
+						<br> 
+						<p> Completes (15)</p>
+						<p> Decks (15) </p> 
+						<p> Trucks (20)</p>
+						<p> Wheels (12) </p>
+						<p> Obstacles (14)</p>
+						<p> Accesories (11) </p>
+						<p> Other (8)</p>
+						<br>
+						<hr>
+						
+						<br> 
+						<h4>F I L T E R</h4>
+						<br>
+						<p> Abailability </p>
+						<p> Prize </p>
+						<p> Size </p>
+						
+					</div>
+					
+					<div id="cuadro2">
+						
+						<br> 
+						<h4>D E C K S</h4>
+						
+						
+						<br>
+						<hr>
+						<br>
+						<p2> Showing 1 - 4 of 15 products  </p2>
+						<br>
+						
+						<div id="cuadro3">
+							<img src="Item1.png">
+						
+						</div>
+						
+						<div id="cuadro4">
+							<img src="Item4.png">
+						
+						</div>
+						
+						<div id="cuadro5">
+							<img src="Item2.png">
+						
+						</div>
+						
+						<div id="cuadro6">
+							<img src="Item3.png">
+						
+						</div>
+						
+					</div>
+						
+			</div>		
+    	
+		
+			<div id="contenido2">			
+			
+					<br> 
+					<br> 
+					<h1>EL SKATEBOARDING EN TODA SU EXPRESIÓN</h1>
+					<br> 
+					<p3> Somos una marca de fingerboards que se dedica a llevar el skateboarding al limite, en todas sus expresiones y presentaciones. </p3>
+				
+			</div>
+		
+			<div id="contenido3">
+			
+			</div>
+		
+			<div id="contenido4">
+				
+			</div>
+		
+			
+			<div id="contenido5">
+				
+			</div>
+		
+			<div id="contenido6">
+		 	
+			<br>
+				<div id="columna5">
+					
+					<br> 
+					<h3>O U R - S T O C K</h3>
+					<br> 
+					<p4> Complete Sets </p4>
+					<br> 
+					<p4> Decks </p4>
+					<br> 
+					<p4> Trucks </p4>
+					<br> 
+					<p4> Wheels </p4>
+					<br> 
+					<p4> Obstacles </p4>
+					<br> 
+					<p4> Accesories </p4>
+					
+					
+			</div>
+				
+				<div id="columna6">
+					
+					<br> 
+					<h3>A L L - C O N T E N T </h3>
+					<br> 
+					<p4> Youtube Channel </p4>
+					<br> 
+					<p4> Gallery </p4>
+					<br> 
+					<p4> News</p4>
+					<br> 
+					<p4> Blog</p4>
+					<br> 
+					
+			</div>
+					
+				<div id="columna7">
+					
+					<br> 
+					<h3>A B O U T - U S</h3>
+					<br> 
+					<p4> Contact Us </p4>
+					<br> 
+					<p4> Shipping Information </p4>
+					<br> 
+					<p4> Returns</p4>
+					<br>  
+					<p4> Terms of Service</p4>
+					<br> 
+					<p4> Privacy Policy</p4>
+					<br> 
+					<br/>
+			
+				</div>
+				
+				<div id="columna8">
+					
+					<br> 
+					<h3>F O L L O W - U S</h3>
+					<br>
+				
+					<p4>Follow us on all our networks and the official</p4>
+					<p4>Woodpecker channels. </p4>
+					<img src="Icons.png">
+					<br/>
+					
+			
+				</div>
+			</div>
+		
+			<div id="footer">
+				
+		    	<br>
+					<h5>WOODPECKER CO. | SINCE 2018 | COLOMBIAN HANDMADE | ALL OF OUR PRODUCTS ARE THE ESSENCE OF SKATEBOARDING © </h5>
+			</div>
+		
+		
+		</div>
+
+	</body>
+	
+</html>
